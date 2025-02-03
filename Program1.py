@@ -1,4 +1,4 @@
-# Delete an list of element in python
+# Delete an element or list of element in python
 x = 10
 print(x)  # Output: 10
 del x
