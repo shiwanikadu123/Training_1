@@ -10,7 +10,6 @@ Variable Deletion: The del statement is used to delete a variable or an element 
 
 List Reference: When b = a is executed, both a and b reference the same list in memory. Deleting a using del a only removes the reference a, but the list itself remains in memory as long as b still references it.
 
---
 
 ## Program 2: Handling Variables Without Values
 Explanation:
@@ -18,7 +17,6 @@ Unassigned Variables: In Python, attempting to use a variable that has not been 
 
 Using None: The None keyword is used to define a variable without assigning it a specific value. It is often used as a placeholder to indicate that a variable exists but has no meaningful value yet.
 
---
 
 ## Program 3: Global Variables in Functions
 Explanation:
@@ -26,7 +24,6 @@ Global Variables: Variables defined outside of functions are considered global. 
 
 Modifying Global Variables: In this example, the modify_global function changes the value of the global variable x from 10 to 2.
 
---
 
 ## Program 4: Arithmetic Operations and Rounding
 Explanation:
@@ -34,6 +31,5 @@ Division: The / operator performs floating-point division, while the // operator
 
 Rounding: The round() function is used to round a floating-point number to a specified number of decimal places. In this example, c is rounded to 2 decimal places, resulting in 3.33.
 
----
 
 
